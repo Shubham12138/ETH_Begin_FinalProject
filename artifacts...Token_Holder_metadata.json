@@ -1,0 +1,172 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_add",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "burn",
+						"type": "uint256"
+					}
+				],
+				"name": "burnIt",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "Mdata",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "new_value",
+						"type": "string"
+					}
+				],
+				"name": "infoUpdate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bal",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_abbr",
+						"type": "string"
+					}
+				],
+				"name": "putDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "toShow",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name_is",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Abbreviation_is",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Total_Supply_is",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Final_ProjecT_ETF_BEG.sol": "Token_Holder"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Final_ProjecT_ETF_BEG.sol": {
+			"keccak256": "0xa462a42e13341ab9fb9dd779f7cb3b7d0b036e9d0cc2fabc53dac78d59e72cc5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ebbf71737c594ec2973e1ad5cc30429ef35d5ac92692215b8e29829f712eea57",
+				"dweb:/ipfs/QmS9t19MrHRBoDfc3w2LPokx3RHVQGTNXczYWja36u4Fy4"
+			]
+		}
+	},
+	"version": 1
+}
