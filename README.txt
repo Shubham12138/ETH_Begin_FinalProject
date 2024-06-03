@@ -1,4 +1,4 @@
-Here Final_Project_ETH_BEG.sol is the main file 
+Here Final_Project_ETF_BEG.sol is the main file 
 
 Here i am going to give a small ellaboration , that what my program gonna do.
 
