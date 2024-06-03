@@ -1,28 +1,13 @@
-REMIX DEFAULT WORKSPACE
+Here Final_Project_ETH_BEG.sol is the main file 
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+Here i am going to give a small ellaboration , that what my program gonna do.
 
-This workspace contains 3 directories:
-
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
-
-SCRIPTS
-
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+1. ) I created structure datatype as "Token" which will provide the body to store "name" , "Abbreviation" and "Balance" of the Tokens
+2. ) Secondly, I created a mapping from address to account balance as "Balance"
+3. ) I made a "putDetails" function to appoint the name and abbr to the token that we made as "f"
+4. ) Next I made the "mint" function as required by the project, which will either put or add the balance to the token for the particular address
+5. ) Further, I created the "burnIt" function to destroy or deduct the balance from the token after verifying whether the token has the ample amount of to balance for
+     deduction , if not , then it simply revert backs to preceeding value.
+6. ) then I made two more addd-on functions as "toShow" and "infoUpdate"
+      a.) "toShow" function simply print all the details of the token
+      b.) while "infoUpdate" function ,updates the value for "name" and "abbr" for the token
